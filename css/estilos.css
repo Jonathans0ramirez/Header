@@ -1,0 +1,64 @@
+header {
+	background: #005F40;
+	color: #fff;
+
+}
+header div h1 {
+	text-shadow: 2px 2px 2px #000;
+}
+/*#background: #4B8132;*/
+footer {
+	background: #005F40;
+	color: #fff;
+}
+
+article div a {
+	color: #fff;
+	text-decoration: none;
+}
+article div a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+html, body {
+	height: 100%;
+}
+.wrapper {
+	min-height: 100%;
+	height: auto !important; /* This line and the next line are not necessary unless you need IE6 support */
+	height: 100%;
+	margin: 0 auto -100px; /* the bottom margin is the negative value of the footer's height */
+}
+.footer, .push {
+	height: 100px; /* .push must be the same height as .footer */
+}
+
+.header, .footer {
+	background: #005F40;
+	color: #fff;
+
+}
+
+  .full button  {
+    background-color: #12A2BF;
+    /*border-radius: 32px;*/
+    color: black;
+  }
+
+/*@keyframes fadeOut
+{
+  from { opacity: 1.0; }
+  to { opacity: 0.0; }
+}
+
+@-webkit-keyframes fadeOut 
+{
+  from { opacity: 1.0 }
+  to { opacity: 0.0 }
+}
+
+.fade-out
+{ 
+  animation: fadeOut 2s infinite;
+  -webkit-animation: fadeOut 2s infinite;
+}*/
